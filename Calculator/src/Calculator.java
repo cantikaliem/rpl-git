@@ -29,6 +29,12 @@ public class Calculator {
     public float division(float a, float b){
         return a/b;
     }
+
+
+    public float min(float a, float b){
+        if(a < b) return a;
+        return b;
+    }
     
     public float max(float a, float b){
         return Math.max(a, b);
